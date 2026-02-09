@@ -1,0 +1,77 @@
+#################################
+# OS / System
+#################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+#################################
+# IDE / Editor
+#################################
+.vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+#################################
+# Environment Variables (Secrets)
+#################################
+.env
+.env.*
+!.env.example
+
+#################################
+# Frontend (React / Vite / Next)
+#################################
+node_modules/
+build/
+dist/
+.cache/
+.next/
+out/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#################################
+# Backend - Node / Express
+#################################
+node_modules/
+uploads/
+tmp/
+
+#################################
+# Backend - Java / Spring Boot
+#################################
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+.gradle/
+build/
+
+#################################
+# Databases
+#################################
+*.db
+*.sqlite
+*.sqlite3
+
+#################################
+# Test / Coverage / Reports
+#################################
+coverage/
+reports/
+*.lcov
+
+#################################
+# Misc
+#################################
+*.swp
+*.bak
