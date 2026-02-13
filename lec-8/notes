@@ -1,0 +1,12 @@
+//IMportant interview question unique key prop;;
+
+
+//Virtual DOM; --->
+
+//React make a new virtual dom for current element
+// then it compare the new dom with previous one to change
+// then check it using the diffing algorithm
+// actual dom changes the required one only not the whole page
+// then we do key prop
+
+//have to study reconcilliation;
