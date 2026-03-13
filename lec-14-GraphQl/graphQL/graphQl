@@ -1,0 +1,26 @@
+//Graph Ql:
+//Graph Ql is a query language for APIs and a runtime for executing those queries by using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
+
+//Its has One endpoing and its a single query language for all the data in your application. It allows clients to request exactly the data they need, and nothing more. This can help reduce over-fetching and under-fetching of data, which can improve performance and reduce bandwidth usage.
+
+//Graph Ql is also strongly typed, which means that you can define a schema for your API that specifies the types of data that can be queried and the relationships between them. This can help catch errors early and make it easier to understand how to use the API.
+
+//Type Definitions:
+// type User {
+//   id: ID!
+//   name: String!
+//   email: String!
+// }
+// type Query {
+//   users: [User]
+//   user(id: ID!): User
+// }
+//! means that the field is required and cannot be null. In the above example, the id, name, and email fields of the User type are all required, and the user query requires an id argument that is also required.
+
+//Resolvers:
+//Resolvers are functions that are responsible for fetching the data for a particular field in a GraphQL query. They are defined in the server-side code and are used to resolve the fields in the schema to actual data.
+//type Query {
+//   users: [User]
+//   user(id: ID!): User
+// }
+//In the above example, the users query would have a resolver function that fetches all the users from the database, while the user query would have a resolver function that takes an id argument and fetches the corresponding user from the database.
